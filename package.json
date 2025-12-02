@@ -1,0 +1,27 @@
+{
+  "name": "@linkbase/shared",
+  "version": "1.0.0",
+  "description": "Shared package for apps",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "pnpm clean && tsc",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "deverything": "^4.0.0",
+    "luxon": "^3.7.1"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.6.2",
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2",
+    "rimraf": "^6.0.1"
+  }
+}
