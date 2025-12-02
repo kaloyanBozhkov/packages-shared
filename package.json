@@ -1,7 +1,7 @@
 {
-  "name": "@linkbase/shared",
+  "name": "@koko/shared",
   "version": "1.0.0",
-  "description": "Shared package for apps",
+  "description": "Shared package for koko's apps",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
